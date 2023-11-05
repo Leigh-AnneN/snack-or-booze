@@ -34,7 +34,7 @@ function FoodMenu({ snacks, drinks }) {
           </CardText>
           <ListGroup>
             {items.map(item => (
-              <Link to={`/{link}/${item.id}`} key={item.id}>
+              <Link to={`/${link}/${item.id}`} key={item.id}>
                 <ListGroupItem>{item.name}</ListGroupItem>
               </Link>
             ))}
